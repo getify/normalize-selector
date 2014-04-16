@@ -4,7 +4,7 @@
 	"description": "Normalize CSS Selectors",
 	"main": "./lib/normalize.js",
 	"scripts": {
-		"test": "node tests.js"
+		"test": "node ./test/mocha/node-suite.js"
 	},
 	"repository": {
 		"type": "git",
@@ -22,5 +22,8 @@
 	"contributors": [
 		"David Kaye (https://github.com/dfkaye)"
 	],
-	"license": "MIT"
+	"license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  }
 }
