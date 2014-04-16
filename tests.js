@@ -21,6 +21,8 @@ var tests = {
 	   /*expected*/"((a)(b(c))d) > *[data-foo=\"bar\"]",
 	/*test*/"#foo[ a = \" b \\\" c\\\\\" ]":
 	   /*expected*/"#foo[a=\" b \\\" c\\\\\"]",
+	/*test*/"#foo[  a  =  \"b\"  i  ]":
+	   /*expected*/"#foo[a=\"b\" i]",
 	/*test*/" /*c1*/ .e1/*c2*/.e2 /*c3*/ .e3 /*c4*/ ":
 	   /*expected*/".e1 .e2 .e3",
 	/*test*/" /*c1*/ .e1/*c2*/.e2 /*c3*/ .e3 ":
