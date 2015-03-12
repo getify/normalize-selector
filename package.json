@@ -1,6 +1,6 @@
 {
 	"name": "normalize-selector",
-	"version": "0.0.2-a",
+	"version": "0.0.3-a",
 	"description": "Normalize CSS Selectors",
 	"main": "./lib/normalize-selector.js",
 	"scripts": {
