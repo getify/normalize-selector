@@ -2,7 +2,7 @@
 	"name": "normalize-selector",
 	"version": "0.0.2-a",
 	"description": "Normalize CSS Selectors",
-	"main": "./lib/normalize.js",
+	"main": "./lib/normalize-selector.js",
 	"scripts": {
 		"test": "node ./test/mocha/node-suite.js"
 	},
