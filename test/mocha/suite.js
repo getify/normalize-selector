@@ -6,7 +6,9 @@ var assert;
 if (typeof require == 'function') {
   // enable to re-use in a browser without require.js
   normalizeSelector = require('../../lib/normalize-selector.js');
-  assert = require('assert');
+  assert = require('assertik');
+} else {
+  assert = window.assertik;
 }
 
 suite('normalizeSelector');
